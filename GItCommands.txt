@@ -1,0 +1,97 @@
+
+1. git init 
+>>moving to stage (first level of commit)
+2.git add * 
+
+3.git commit -m "this is my first commit"
+
+>>creating branch in the repositarory 
+4.git branch -M main
+>>
+5.git remote add origin https://github.com/netajipavan/netajipavan.git
+git remote add origin https://github.com/netajipavan/DevopsDemo.git
+
+>>to push the code into shared file 
+                path  branchname  
+6.git push -u origin main
+
+
+7.take copy frm repositatory
+fresh copy (New copy)
+git clone https://github.com/netajipavan/netajipavan.git
+
+second time update code you should use the PULL 
+
+
+modify file 
+git add *
+
+git status
+
+git commit -m "comments"
+
+git push origin main(Step 6)
+
+
+>>to pull the code (second time pulling the code when new file modified)
+git pull origin main
+
+
+>>>>>Branching
+
+two diffrent Branches are present and working on diffrent modules
+
+two branches 
+
+GITx Develop branches
+
+Gitdemo  Develop branch 
+
+step 1
+
+creating new branch
+Gitdemo  > git checkout -b branchname
+
+-b stands fr branch 
+
+git checkout -b develop
+
+
+to know the which branch name
+
+>>git branch 
+
+>>git add *
+>>git status 
+>>git commit -m "this is Gitdemo updates"
+
+>>git push origni develop 
+
+
+to switch to from Master to Develop branch
+
+in another user switch  and pull the code
+  
+>>git checkout Develop
+	
+
+
+now merge code into master from develop branch
+
+first switch to master branch 
+
+git checkout master
+
+git merge develop
+
+
+
+
+
+
+
+
+
+ 
+
+
